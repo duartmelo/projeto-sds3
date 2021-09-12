@@ -40,7 +40,7 @@ function BarChart() {
         series: [{ name: "% Sucesso", data: mySeries }],
       });
     });
-  });
+  },[]);
 
   const options = {
     plotOptions: {
